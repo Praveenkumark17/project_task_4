@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Count from './Components/Task_1/count';
+import Inputes from './Components/Task_2/inputes';
+import Toggle from './Components/Task_3/toggle';
+import Hide from './Components/Task_4/hide';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Count/>
+      <Inputes/>
+      <Toggle/>
+      <Hide/>
     </div>
   );
 }
